@@ -5,4 +5,10 @@ describe("findSmallestMultiple", () => {
     const result = findSmallestMultiple(10);
     expect(typeof result).toBe("number");
   });
+
+  test("should return the smallest number divisble by all values from 1 to n ", () => {
+    const result = findSmallestMultiple(10);
+
+    expect(result).toBe(2520);
+  });
 });

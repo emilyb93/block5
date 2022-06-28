@@ -12,3 +12,5 @@ describe("findSmallestMultiple", () => {
     expect(result).toBe(2520);
   });
 });
+
+console.log(findSmallestMultiple(20));
